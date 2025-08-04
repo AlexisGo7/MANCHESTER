@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester United vs Fiorentina</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+            <!-- LOGO DEL CLUB -->
+            <a class="navbar-brand d-flex align-items-center text-white fw-bold" href="#">
+                <img src="img/united.png" alt="Manchester United" width="40" height="40" class="me-2">
+                Manchester United
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon text-white"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#informacion">Información</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#carrusel">Carrusel</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#videos">Videos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#mapa">Mapa</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contactos">Contactos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- HEADER -->
+    <header class="py-5 bg-dark text-white text-center">
+        <div class="container">
+            <h1 class="fw-bold display-4">Manchester United Football Club</h1>
+            <p class="lead">Historia • Partidos • Equipaciones • Novedades • Videos • Ubicación • Contacto</p>
+        </div>
+    </header>
+
+    <!-- CARRUSEL -->
+    <section id="carrusel" class="text-center my-4 container">
+        <div id="carouselExampleIndicators" class="carousel slide shadow rounded" data-bs-ride="carousel"
+            data-bs-interval="3000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                    <img src="img/Evento6.png" class="d-block w-100" alt="Evento 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/EVENTO2.webp" class="d-block w-100" alt="Evento 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/EVENTO3.jpg" class="d-block w-100" alt="Evento 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- INFORMACIÓN -->
+    <section id="informacion" class="container py-5 text-center animate-fade-up">
+        <h1 class="mb-4 text-danger">Próximo Partido: Manchester United vs Fiorentina</h1>
+        <div class="bg-light p-4 rounded shadow-sm mx-auto" style="max-width: 800px;">
+            <h2 class="text-danger">Cuándo</h2>
+            <p>Sábado 9 de agosto de 2025</p>
+
+            <h2 class="text-danger">Qué</h2>
+            <p>Partido amistoso como parte de la pretemporada – ya finalizó el Premier League Summer Series.</p>
+
+            <h2 class="text-danger">Cómo llega el equipo</h2>
+            <p>
+                Manchester United cerró la gira veraniega en EE. UU. con un empate 2‑2 ante Everton, coronándose campeón
+                del mini-torneo. A pesar del resultado final favorable, el desempeño generó críticas importantes.
+            </p>
+
+            <h3 class="text-danger">Contexto y ambiente</h3>
+            <p>El capitán Bruno Fernandes criticó la falta de compromiso de algunos jugadores y pidió refuerzos de
+                calidad.</p>
+
+            <h3 class="text-danger">Refuerzos</h3>
+            <p>Bryan Mbeumo debutó con buenas sensaciones. La llegada de Matheus Cunha apunta a mayor dinamismo y
+                competitividad.</p>
+
+            <h2 class="text-danger">Qué esperar ante Fiorentina</h2>
+            <p>
+                Fiorentina representa una prueba exigente. Este encuentro permitirá afinar esquemas tácticos antes del
+                debut en liga.
+            </p>
+
+            <a href="https://www.seatsnet.com/index.php?dispatch=categories.view&category_id=165199&features_hash=8-0-514-EUR"
+                class="btn btn-danger mt-3 px-4 py-2">
+                COMPRA TU BOLETA AQUÍ
+            </a>
+        </div>
+    </section>
+
+
+    <!-- VIDEOS -->
+    <section id="videos" class="container text-center my-5">
+        <h2 class="text-danger text-uppercase fw-bold mb-4">Videos</h2>
+        <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6-rddtgV4Iw?si=IMTqDekLZfurnRQX"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- MAPA -->
+    <section id="mapa" class="container text-center my-5">
+        <h2 class="text-danger text-uppercase fw-bold mb-4">Mapa - Old Trafford Street View</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!4v1692219482!6m8!1m7!1sCAoSLEFGMVFpcE1JekFrQ2FkY0R3Wkx3WnpEa1gyY3RxQ3R3eExGbzlLbVY2aW9V!2m2!1d53.4631!2d-2.2914!3f0!4f0!5f0.7820865974627469"
+            width="100%" height="450" allowfullscreen></iframe>
+    </section>
+
+    <!-- CONTACTOS -->
+    <section id="contactos" class="container text-center my-5">
+        <h2 class="text-danger text-uppercase fw-bold mb-4">Contáctanos</h2>
+        <p class="fs-5">Correo: contacto@manutd.com</p>
+        <p class="fs-5">Teléfono: +44 161 868 8000</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-3 bg-dark text-white">
+        <h5>Síguenos en redes sociales / Integrante Alexis Castaño</h5>
+        <a href="https://www.facebook.com/manchesterunited" target="_blank" class="mx-2 text-white">
+            <i class="bi bi-facebook fs-4"></i>
+        </a>
+        <a href="https://twitter.com/ManUtd" target="_blank" class="mx-2 text-white">
+            <i class="bi bi-twitter fs-4"></i>
+        </a>
+        <a href="https://www.instagram.com/manchesterunited/" target="_blank" class="mx-2 text-white">
+            <i class="bi bi-instagram fs-4"></i>
+        </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+/* Fuente global */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #c70101 !important; /* Rojo clásico Manchester United */
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease;
+}
+.navbar .nav-link:hover {
+    color: #ffcc00 !important; /* Amarillo dorado */
+}
+
+/* Header */
+header {
+    background: url('img/oldtrafford.jpg') center/cover no-repeat;
+    background-attachment: fixed;
+    text-shadow: 0 2px 4px rgba(255, 0, 0, 0.7);
+}
+
+/* Títulos */
+h1, h2, h3 {
+    font-weight: 700;
+}
+h1.text-center.mb-4 {
+    color: #c70101;
+}
+
+/* Botones */
+.btn-danger {
+    background-color: #c70101;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-danger:hover {
+    background-color: #a00101;
+}
+
+/* Carrusel */
+#carrusel .carousel-inner img {
+    height: 450px;
+    object-fit: cover;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+/* Secciones */
+section {
+    padding: 60px 0;
+}
+section h2 {
+    color: #c70101;
+    margin-bottom: 20px;
+}
+section p {
+    font-size: 1.1rem;
+}
+
+/* Videos */
+#videos iframe {
+    border-radius: 10px;
+}
+
+/* Mapa */
+#mapa iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Contactos */
+#contactos p {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: #fff;
+}
+footer i {
+    transition: transform 0.3s ease;
+}
+footer i:hover {
+    transform: scale(1.2);
+    color: #ffcc00;
+}
+
+/* Centrar todo el contenido */
+#informacion {
+    text-align: center;
+}
+
+/* Limitar el ancho del bloque principal */
+#informacion .bg-light {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Todos los títulos en rojo */
+#informacion h1,
+#informacion h2,
+#informacion h3 {
+    color: #c70101;
+}
